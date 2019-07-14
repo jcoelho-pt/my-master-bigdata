@@ -29,12 +29,17 @@ que finalice su formación.
 
 **CERTIFICACIÓN ACADÉMICA**
 * Certificado de matriculación: 20€
+
 Este certificado acredita que el alumno está matriculado en IMF e incluye las fechas de inicio y fin de su programa.
-* Certificado de superación: 20€*
+* Certificado de superación: 20€
+
 Este certificado acredita que el alumno ha superado con éxito su formación.
-* Certificados especiales o en inglés: 75€*
+* Certificados especiales o en inglés: 75€
+
 Estos certificados serán a la carta (pudiendo incluir los contenidos cursados, la nota final obtenida, etc. También se incluyen los
 certificados de las formaciones anteriores a 2010 y la emisión del certificado en inglés.
+
 Estos precios incluyen el envío por correo electrónico en formato digital en un plazo de 1 semana. En caso de necesitarlo urgente
 (24 horas), conllevará un suplemento de 75€.
+
 Envío por correo postal: España 15€ / Internacional 35€.
