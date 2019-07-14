@@ -18,3 +18,23 @@ Las vías de contacto con el Equipo Tutorial son las siguientes:
 * En caso de corrección de TFM: 10 días.
 Estos plazos son aproximados.
 Para otro tipo de consultas, puedes dirigirte a la Secretaría Académica de IMF a través del teléfono **91 364 51 57** o desde el correo **secretaria@imf.com**
+
+# SECRETARÍA ACADÉMICA
+**EXPEDICIÓN DE TÍTULO (aprox. 3 meses)**
+* Máster propio 100€
+* Experto universitario 60€
+El coste de duplicado de títulos será igual que el coste de expedición.
+Desde la Secretaría Académica se enviará al alumno un correo electrónico con toda la información para realizar el trámite, una vez
+que finalice su formación.
+
+**CERTIFICACIÓN ACADÉMICA**
+* Certificado de matriculación: 20€
+Este certificado acredita que el alumno está matriculado en IMF e incluye las fechas de inicio y fin de su programa.
+* Certificado de superación: 20€*
+Este certificado acredita que el alumno ha superado con éxito su formación.
+* Certificados especiales o en inglés: 75€*
+Estos certificados serán a la carta (pudiendo incluir los contenidos cursados, la nota final obtenida, etc. También se incluyen los
+certificados de las formaciones anteriores a 2010 y la emisión del certificado en inglés.
+Estos precios incluyen el envío por correo electrónico en formato digital en un plazo de 1 semana. En caso de necesitarlo urgente
+(24 horas), conllevará un suplemento de 75€.
+Envío por correo postal: España 15€ / Internacional 35€.
