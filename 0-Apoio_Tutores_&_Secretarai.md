@@ -43,3 +43,16 @@ Estos precios incluyen el envío por correo electrónico en formato digital en u
 (24 horas), conllevará un suplemento de 75€.
 
 Envío por correo postal: España 15€ / Internacional 35€.
+
+**AMPLIACIÓN DE MATRÍCULA POR EXPIRACIÓN DE PLAZO**
+Una vez expirado el plazo de vigencia de matrícula, existe la opción de concederse una ampliación:
+* Ampliación 6 meses: 350€
+* Ampliación 12 meses: 700€
+
+El alumno debe tener en cuenta que dicha ampliación únicamente podrá gestionarse en una ocasión, debiendo elegir el plazo que mejor se ajuste a lo que tiene pendiente.
+
+**RENOVACIÓN DE MÓDULOS**
+Si un alumno suspende alguna de las pruebas obligatorias propuestas en la plataforma virtual, deberá volver a matricularse de dicho módulo:
+* Renovación de módulo: 400€
+
+Una vez gestionado, el alumno contará con un plazo de 2 meses para volver a superarlo.
