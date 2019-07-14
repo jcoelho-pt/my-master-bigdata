@@ -1,4 +1,4 @@
-# RECURSOS
+# APOIO DOS TUTORES
 
 ## Como contacar com o serviço de tutoria?
 Las vías de contacto con el Equipo Tutorial son las siguientes:
