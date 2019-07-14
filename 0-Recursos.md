@@ -2,8 +2,8 @@
 
 ## Como contacar com o serviço de tutoria?
 Las vías de contacto con el Equipo Tutorial son las siguientes:
-* A través del buzón de *mensajería interna* de la plataforma virtual.
-* A través de *tutorías telefónicas*, previa cita concertada con la Secretaría Académica: secretaria@imf.com. En este correo deberás indicar tu disponibilidad y nos encargaremos de agendarla con el tutor. Te enviaremos un correo electrónico con la confirmación de la tutoría.
+* A través del buzón de **mensajería interna** de la plataforma virtual.
+* A través de **tutorías telefónicas**, previa cita concertada con la Secretaría Académica: secretaria@imf.com. En este correo deberás indicar tu disponibilidad y nos encargaremos de agendarla con el tutor. Te enviaremos un correo electrónico con la confirmación de la tutoría.
 
 ### Mensagem interna da Plataforma Virtual
 * Entre no separador "Tutor" e clique em "Escrever uma aula particular".
@@ -17,4 +17,4 @@ Las vías de contacto con el Equipo Tutorial son las siguientes:
 * Si se trata de la corrección de casos prácticos: 5 días.
 * En caso de corrección de TFM: 10 días.
 Estos plazos son aproximados.
-Para otro tipo de consultas, puedes dirigirte a la Secretaría Académica de IMF a través del teléfono *91 364 51 57* o desde el correo *secretaria@imf.com*
+Para otro tipo de consultas, puedes dirigirte a la Secretaría Académica de IMF a través del teléfono **91 364 51 57** o desde el correo **secretaria@imf.com**
