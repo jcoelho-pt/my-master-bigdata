@@ -1,10 +1,11 @@
 Criar um script que mostra o seguinte menu:  
-Ver directorio actual...........[1]  # se mostrarán los archivos del directorio actual. 
-Copiar archivos.................[2]  # se le pedirá el nombre del archivo que se quiere copiar y el nombre del archivo donde se quiere copiar.
-Editar archivos.................[3]  # se le pedirá el nombre del archivo que se desea editar y se abrirá el editor vi para editarlo. 
-Imprimir archivo................[4]  # se le pedirá el nombre del archivo que se desea imprimir y se imprimirá el mismo.  
-Salir del menú..................[5]  # se saldrá del script.  
-
+````
+Ver directorio actual...........[1]   # se mostrarán los archivos del directorio actual.  
+Copiar archivos.................[2]   # se le pedirá el nombre del archivo que se quiere copiar y el nombre del archivo donde se quiere copiar.  
+Editar archivos.................[3]   # se le pedirá el nombre del archivo que se desea editar y se abrirá el editor vi para editarlo. 
+Imprimir archivo................[4]   # se le pedirá el nombre del archivo que se desea imprimir y se imprimirá el mismo.  
+Salir del menú..................[5]   # se saldrá del script.  
+````
 **Solución**
 ````bash
 while true
