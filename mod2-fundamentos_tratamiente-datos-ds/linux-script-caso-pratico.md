@@ -26,23 +26,24 @@ Salir del menú..................[5]"
 read i
 
 case $i in
-1) ls -l|more; read z
+1) ls -l|more; 
+  read z
 ;;
 
 2) echo "Introduzca [desde] [hasta]"
-read x y
-cp $x $y
-read x
+  read x y
+  cp $x $y
+  read x
 ;;
 
 3) echo "¿Nombre de fichero a editar?"
-read x;
-vi $x
+  read x;
+  vi $x
 ;;
 
 4) echo "¿Nombre de fichero a imprimir?"
-read x
-lpr $x
+  read x
+  lpr $x
 ;;
 
 5) clear; break
