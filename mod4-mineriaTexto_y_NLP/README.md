@@ -7,6 +7,6 @@ Sin embargo, no se verán en detalle todas las tecnologías, ya que excedería l
 * Brat y Gate
 * Text Mining: clustering
 * Text Mining: sentimiento y temas
-* Aplicaciones y técnicas de PLN
+* Aplicaciones y técnicas de PLN  
 El resto de tecnologías se verán muy por encima en la última unidad didáctica. 
 Se recomienda consultar el documento que contiene el glosario de este módulo para profundizar en los conceptos desconocidos, aunque se verán a lo largo del temario.
