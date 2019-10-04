@@ -19,7 +19,7 @@ Estos parámetros se pueden leer como:
 
 Como resultado, se debe mostrar por pantalla un valor numérico en cada línea que represente el “sentimiento” de un tweet.
 
-No todos los tweets que se van a considerar tienen contenido, por lo que hay que filtrar aquellos que tienen de los que no tienen.
+!!! No todos los tweets que se van a considerar tienen contenido, por lo que hay que filtrar aquellos que tienen de los que no tienen. !!!
 
 -- EXEMPLO --
 
