@@ -1,10 +1,8 @@
-# HADOOP
-
-## BASICS OF HADOOP AND ITS ECOSYSTEM
+# HADOOP BASICS
 [Hadoop platform](http://hadoop.apache.org/) is built on Java technologies and capable of processing huge volume of heterogeneous data in a distributed clustered environment. Its scaling capability makes it a perfect fit for distributed computing.  
 Inspired by Google’s MapReduce and Google File System (GFS) papers.
 
-### CONCEPTS
+## CONCEPTS
 **Node:** simply means a virtual or physical machine that can be used for processing and storing. There are two types of nodes in hadoop ```Name``` node and ```Data node```. It is called as a node as all these computers are interconnected. NameNode is also known as the Master node.  
 **Rack:** set of 1 to n nodes, which are usually grouped in metal structures with this name that have dimensions established by the industry and located in the same network.  
 **Cluster:** is a collection of racks  
@@ -13,7 +11,7 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 **DataNode (aka Segment)** is responsible for storing blocks of data and running tasks  
 **MapReduce** push compute to where data resides
 
-### MODULES
+## MODULES
 - **Hadoop Common:** The common utilities that support the other Hadoop modules.
 - **Hadoop Distributed File System (HDFS):** A distributed file system that provides high-throughput access to application data.
 - **Hadoop YARN:** A framework for job scheduling and cluster resource management.
@@ -21,23 +19,8 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 - **Hadoop Ozone:** An object store for Hadoop.
 - **Hadoop Submarine:** A machine learning engine for Hadoop.
 
-### ECOSYSTEM
-<p align="left">
-  <img width="300" heigth="310" src="images/Hadoop-Hadoop_Ecosystem.png?raw=true" alt="Hadoop Ecosystem"/>
-</p>
 
-#### MONITORIZATION & DATA INGESTION
-**Apache Ambari:** web-based tool for provisioning, managing, and monitoring Apache Hadoop clusters  
-**Chukwa:** a data collection system for managing large distributed systems  
-**Flume:** a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data  
-**ZooKeeper:** a high-performance coordination service for distributed applications
-
-#### DATA PROCESSING
-<p align="left">
-  <img width="330" height="280" src="images/Hadoop-Data_Processing.png?raw=true" alt="Hadoop Ecosystem - Data Processing"/>
-</p>
-
-### HADOOP KEY POINTS
+## HADOOP KEY POINTS
 - **Accessible:** runs on large groups of machines in clusters or in clouds such as Amazon's Elastic Compute Cloud (EC2).
 - **Robust**: is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures
 - **Scalable**: allows horizontal scaling to manage larger volumes of data through replication, adding more nodes to the cluster 
