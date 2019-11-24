@@ -1,6 +1,6 @@
 # HADOOP ECOSYSTEM
 <p align="left">
-  <img width="320" heigth="315" src="images/Hadoop-Hadoop_Ecosystem.png?raw=true" alt="Hadoop Ecosystem"/>
+  <img width="335" heigth="320" src="images/Hadoop-Hadoop_Ecosystem.png?raw=true" alt="Hadoop Ecosystem"/>
 </p>
 
 #### MONITORIZATION & DATA INGESTION
