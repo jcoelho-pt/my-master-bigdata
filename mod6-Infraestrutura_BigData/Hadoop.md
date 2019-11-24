@@ -27,9 +27,10 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 </p>
 
 #### MONITORIZATION & DATA INGESTION
-**Apache Ambari:** web-based tool for provisioning, managing, and monitoring Apache Hadoop clusters 
+**Apache Ambari:** web-based tool for provisioning, managing, and monitoring Apache Hadoop clusters  
 **Chukwa:** a data collection system for managing large distributed systems  
-**Flume:** a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data  **ZooKeeper:** a high-performance coordination service for distributed applications
+**Flume:** a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data  
+**ZooKeeper:** a high-performance coordination service for distributed applications
 
 ### HADOOP KEY POINTS
 - **Accessible:** runs on large groups of machines in clusters or in clouds such as Amazon's Elastic Compute Cloud (EC2).
