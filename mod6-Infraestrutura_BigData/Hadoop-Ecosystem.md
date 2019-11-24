@@ -1,6 +1,6 @@
 # HADOOP ECOSYSTEM
 <p align="left">
-  <img width="300" heigth="310" src="images/Hadoop-Hadoop_Ecosystem.png?raw=true" alt="Hadoop Ecosystem"/>
+  <img width="320" heigth="315" src="images/Hadoop-Hadoop_Ecosystem.png?raw=true" alt="Hadoop Ecosystem"/>
 </p>
 
 #### MONITORIZATION & DATA INGESTION
@@ -11,7 +11,7 @@
 
 #### DATA PROCESSING
 <p align="left">
-  <img width="330" height="270" src="images/Hadoop-Data_Processing.png?raw=true" alt="Hadoop Ecosystem - Data Processing"/>
+  <img width="330" height="260" src="images/Hadoop-Data_Processing.png?raw=true" alt="Hadoop Ecosystem - Data Processing"/>
 </p>
 
 - **[Avro](http://avro.apache.org/)** is a data serialization system; with Avro we can store and read data easily from different programming languages. It is optimized to minimize the disk space required to store data  
