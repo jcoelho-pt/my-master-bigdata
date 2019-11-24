@@ -1,9 +1,19 @@
 # HADOOP INSTALLATION
 
-
-
 ## 1. REQUIREMENTS
-**Java** is the primary requirement for running Hadoop on any system, so make sure you have Java installed on your system.
+**Java** is the primary requirement for running Hadoop on any system, so make sure you have Java installed on your system. To instal:
+```bash
+sudo apt-get install openjdk-8-jre
+```
+
+To check which **java version** is installed: ```java -version```  
+
+Once it is confirmed that Java version is correctly installed, the path in which Java is installed is searched and the **JAVA_HOME environment variable** that will be required in subsequent steps is checked.  
+```bash
+update-alternatives --config java
+```
+The value of the JAVA_HOME variable is everything found before ```/jre/bin/java```  
+
 
 ## 2. CREATE A USER FOR HADOOP*
 It is recommended to create a normal (nor root) account for Hadoop working.
@@ -30,4 +40,5 @@ In this step, download hadoop 3.1 source archive file using below command. You c
 wget http://www-eu.apache.org/dist/hadoop/common/hadoop-3.1.2/hadoop-3.1.2.tar.gz
 tar xzf hadoop-3.1.2.tar.gz
 mv hadoop-3.1.2 hadoop
+rm hadoop-3.1.2.tar.gz
 ```
