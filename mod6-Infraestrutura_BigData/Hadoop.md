@@ -53,6 +53,8 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 • Job Tracker
 • Task Tracker
 
+In addition, the HDFS file system is not restricted only to the use of MapReduce. It can be used for other applications such as HBase data storage, Mahout machine learning and matrix operations.
+
 ## HADOOP DAEMONS
 In a fully configured cluster, "running Hadoop" means running a series of "daemons" or programs resident on different servers in the network. These demons have specific roles, some exist only on one server and others on multiple servers.  
 
