@@ -21,4 +21,8 @@
 - **[HCatalog](https://cwiki.apache.org/confluence/display/Hive/HCatalog)** is a table and storage management layer for Hadoop that enables users with different data processing tools — Pig, MapReduce — to more easily read and write data on the grid  
 - **[Lucerne](http://lucene.apache.org/core/)** a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform  
 - **[Mahout](http://mahout.apache.org/)** is a machine learning and data mining project used to assist in the search for patterns in large datasets. It has recommendation, clustering and classification algorithms  
-- **[Oozie](http://oozie.apache.org/)** is a workflow scheduler system to manage Apache Hadoop jobs; Oozie Workflow jobs are Directed Acyclical Graphs (DAGs) of actions; Oozie Coordinator jobs are recurrent Oozie Workflow jobs triggered by time (frequency) and data availability
+- **[Oozie](http://oozie.apache.org/)** is a workflow scheduler system to manage Apache Hadoop jobs; Oozie Workflow jobs are Directed Acyclical Graphs (DAGs) of actions; Oozie Coordinator jobs are recurrent Oozie Workflow jobs triggered by time (frequency) and data availability  
+- **[Pig](http://pig.apache.org/)** High level procedural language used for data analysis and parallel process execution  
+- **[Spark](https://spark.apache.org/)** data computing engine. Spark provides a simple and expressive programming model that supports multiple applications including ETL (extract, transform, load), machine learning, chain processing and graphic computing  
+
+
