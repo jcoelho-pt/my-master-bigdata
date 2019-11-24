@@ -3,13 +3,13 @@
   <img width="335" heigth="320" src="images/Hadoop-Hadoop_Ecosystem.png?raw=true" alt="Hadoop Ecosystem"/>
 </p>
 
-#### MONITORIZATION & DATA INGESTION
+## MONITORIZATION & DATA INGESTION
 **Apache Ambari:** web-based tool for provisioning, managing, and monitoring Apache Hadoop clusters  
 **Chukwa:** a data collection system for managing large distributed systems  
 **Flume:** a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data  
 **ZooKeeper:** a high-performance coordination service for distributed applications
 
-#### DATA PROCESSING
+## DATA PROCESSING
 <p align="left">
   <img width="330" height="260" src="images/Hadoop-Data_Processing.png?raw=true" alt="Hadoop Ecosystem - Data Processing"/>
 </p>
@@ -24,5 +24,10 @@
 - **[Oozie](http://oozie.apache.org/)** is a workflow scheduler system to manage Apache Hadoop jobs; Oozie Workflow jobs are Directed Acyclical Graphs (DAGs) of actions; Oozie Coordinator jobs are recurrent Oozie Workflow jobs triggered by time (frequency) and data availability  
 - **[Pig](http://pig.apache.org/)** High level procedural language used for data analysis and parallel process execution  
 - **[Spark](https://spark.apache.org/)** data computing engine. Spark provides a simple and expressive programming model that supports multiple applications including ETL (extract, transform, load), machine learning, chain processing and graphic computing  
-- **[Sqoop](http://sqoop.apache.org/)** is a tool designed to efficiently transfer information between Hadoop and storage systems with structured data, such as relational databases. Some of its features are: import individual tables or entire databases to HDFS; it generates Java classes that allow you to interact with the imported data; it allows you to import from SQL databases to Hive.
+- **[Sqoop](http://sqoop.apache.org/)** is a tool designed to efficiently transfer information between Hadoop and storage systems with structured data, such as relational databases. Some of its features are: import individual tables or entire databases to HDFS; it generates Java classes that allow you to interact with the imported data; it allows you to import from SQL databases to Hive.  
+- **[Tez]()** programming framework built on Hadoop YARN, which provides a flexible and powerful engine to execute data processing tasks through graphic flows. Tez has been adopted by Hive and Pig and other Hadoop ecosystem frameworks to replace the MapReduce execution engine  
+
+## DATABASES
+- **[Cassandra](http://cassandra.apache.org/)** distributed NoSQL database based on a key-value storage model; is the right choice when you need scalability and high availability without compromising performance  
+- **[HBase](http://hbase.apache.org/)** column-oriented, scalable and distributed database that allows the storage of large volumes of data; use it when you need random, realtime read/write access to your Big Data
 
