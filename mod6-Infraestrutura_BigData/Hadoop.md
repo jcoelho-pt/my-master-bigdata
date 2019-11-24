@@ -42,13 +42,13 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 - HDFS is optimized for large, streaming reads of files  
     – Rather than random reads 
 
-**Hadoop Distributed File System**
-– Data is organized into files & directories
-– Files are divided into blocks, typically 64-128MB each,and distributed across cluster nodes
-– Block placement is known at runtime by map-reduce so computation can be co-located with data
-– Blocks are replicated (default is 3 copies) to handle failure
+**Hadoop Distributed File System**  
+– Data is organized into files & directories  
+– Files are divided into blocks, typically 64-128MB each,and distributed across cluster nodes  
+– Block placement is known at runtime by map-reduce so computation can be co-located with data  
+– Blocks are replicated (default is 3 copies) to handle failure  
 – Checksums are used to ensure data integrity  
-**Replication is the one and only strategy for error handling, recovery and fault tolerance**
+**Replication is the one and only strategy for error handling, recovery and fault tolerance**  
 – Make multiple copies and be happy! 
 
 ## Hadoop Daemons
