@@ -12,7 +12,9 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 - **Hadoop Common:** The common utilities that support the other Hadoop modules. It contains the necessary .jar files and scripts to run Hadoop. In addition, the Hadoop Common package provides the source code, documentation and a contribution section that includes projects from the Hadoop community.
 - **Hadoop Distributed File System (HDFS):** A distributed file system that provides high-throughput access to application data. HDFS has optimized the reading and writing of large masses of data and large files. Its design reduces the input-output in the network, is scalable and highly available thanks to the replication and fault tolerance techniques it implements.
 - **Hadoop YARN:** A framework for job scheduling and cluster resource management.
-- **Hadoop MapReduce:** A YARN-based system for parallel processing of large data sets.
+- **Hadoop MapReduce:** A YARN-based system for parallel processing of large data sets.  
+    - **JobTracker** is responsible for trying to keep each of the jobs that are sent to the MapReduce engine as close as possible to the data. When having a rack file system, the JobTracker must know which node contains the information and what other machines are nearby  
+    - **TaskTracker** is responsible for monitoring the work to relaunch them in case of fall. A different daemon is generated on each node to prevent the TaskTracker itself from failing if the job it has to manage fails.
 - **Hadoop Ozone:** An object store for Hadoop.
 - **Hadoop Submarine:** A machine learning engine for Hadoop.
 
