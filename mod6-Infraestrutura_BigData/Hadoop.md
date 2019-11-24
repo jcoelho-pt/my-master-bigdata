@@ -26,11 +26,20 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
   <img width="300" heigth="310" src="images/Hadoop-Hadoop_Ecosystem.png?raw=true" alt="Hadoop Ecosystem"/>
 </p>
 
+#### MONITORIZATION & DATA INGESTION
+**Apache Ambari:** web-based tool for provisioning, managing, and monitoring Apache Hadoop clusters 
+**Chukwa:** a data collection system for managing large distributed systems  
+**Flume:** a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data  **ZooKeeper:** a high-performance coordination service for distributed applications
+
 ### HADOOP KEY POINTS
-- **Accessible:** Hadoop runs on large groups of machines in clusters or in clouds such as Amazon's Elastic Compute Cloud (EC2).
-- **Robust**: Hadoop is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures
+- **Accessible:** runs on large groups of machines in clusters or in clouds such as Amazon's Elastic Compute Cloud (EC2).
+- **Robust**: is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures
+- **Scalable**: allows horizontal scaling to manage larger volumes of data through replication, adding more nodes to the cluster 
+- **Simple**: allows users to write efficient code in parallel using complex concepts such as MapReduce or the distributed HDFS file system designed according to the Google GSF  
+
 
 ## HDFS
+
 ### HDFS CONCEPTS
 - Sits on top of native (ext3, xfs, etc.) file system
 - Performs best with a ‘modest’ number of large files  
@@ -50,6 +59,13 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 – Checksums are used to ensure data integrity  
 **Replication is the one and only strategy for error handling, recovery and fault tolerance**  
 – Make multiple copies and be happy! 
+
+### HDFS COMPONENTS
+• NameNode
+• DataNode
+• Standby NameNode
+• Job Tracker
+• Task Tracker
 
 ## Hadoop Daemons
 
