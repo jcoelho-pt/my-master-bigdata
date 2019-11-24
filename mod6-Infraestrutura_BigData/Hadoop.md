@@ -18,6 +18,9 @@
 - **Hadoop Submarine:** A machine learning engine for Hadoop.
 
 ### ECOSYSTEM
+<p align="left">
+  <img width="300" heigth="310" src="images/Hadoop-Hadoop_Ecosystem.png?raw=true" alt="Hadoop Ecosystem"/>
+</p>
 
 ### HADOOP KEY POINTS
 
