@@ -58,17 +58,16 @@ In a fully configured cluster, "running Hadoop" means running a series of "daemo
 
 ### NameNode (aka Master)
 Is responsible for managing the namespace repository (index) for the filesystem, and managing Jobs. There is only one in the cluster and therefore acts as a **master node**.  
-Its main function is to keep in memory the structure of how the files are divided into blocks and what DataNode stores each of those blocks. Unlike the rest of the demons, where if there is any hardware or software failure the Hadoop cluster continues to work or can be restarted, in case of NameNode failure recovery is not easy.  
+Its main function is to keep in memory the structure of how the files are divided into blocks and what DataNode stores each of those blocks.
 
 ### DataNode (aka Segment)
 Is responsible for storing blocks of data and running tasks.  
 They are responsible for reading and writing customer requests, the so-called slave nodes. When a client requests a reading or writing of data, the file is divided into blocks and the NameNode is responsible for saying where each of these blocks is located or stored. In addition, the DataNodes communicate with other nodes to replicate the data, increase redundancy and favor error control.  
 
 ### Secondary NameNode
-Its main role is to mix the NameNode image with the log of executed transactions to prevent the log from growing too much. Normally this demon runs on a separate physical machine, since this process requires a lot of CPU and a lot of memory. It keeps a copy of the NameSpace image so it can be used in case the NameNode fails. 
+Its main role is to mix the NameNode image with the log of executed transactions to prevent the log from growing too much. Normally this demon runs on a separate physical machine, since this process requires a lot of CPU and a lot of memory. It keeps a copy of the NameSpace image so it can be used in case the NameNode fails.  
 
-### JobTracker and TaskTracker
-The JobTracker is the service within Hadoop that farms out MapReduce tasks to specific nodes in the cluster, ideally the nodes that have the data, or at least are in the same rack. ... The JobTracker submits the work to the chosen TaskTracker nodes.
+The HDFS High Availability feature addresses the above problems by providing the option of running two (and as of 3.0.0 more than two) redundant NameNodes in the same cluster in an Active/Passive configuration with a hot standby. This allows a fast failover to a new NameNode in the case that a machine crashes, or a graceful administrator-initiated failover for the purpose of planned maintenance.
 
 ## Installing Hadoop
 
