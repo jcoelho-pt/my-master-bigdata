@@ -24,5 +24,5 @@
 - **[Oozie](http://oozie.apache.org/)** is a workflow scheduler system to manage Apache Hadoop jobs; Oozie Workflow jobs are Directed Acyclical Graphs (DAGs) of actions; Oozie Coordinator jobs are recurrent Oozie Workflow jobs triggered by time (frequency) and data availability  
 - **[Pig](http://pig.apache.org/)** High level procedural language used for data analysis and parallel process execution  
 - **[Spark](https://spark.apache.org/)** data computing engine. Spark provides a simple and expressive programming model that supports multiple applications including ETL (extract, transform, load), machine learning, chain processing and graphic computing  
-
+- **[Sqoop](http://sqoop.apache.org/)** is a tool designed to efficiently transfer information between Hadoop and storage systems with structured data, such as relational databases. Some of its features are: import individual tables or entire databases to HDFS; it generates Java classes that allow you to interact with the imported data; it allows you to import from SQL databases to Hive.
 
