@@ -32,6 +32,11 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 **Flume:** a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data  
 **ZooKeeper:** a high-performance coordination service for distributed applications
 
+#### DATA PROCESSING
+<p align="left">
+  <img width="300" height="310" src="images/Hadoop-Data_Processing.png?raw=true" alt="Hadoop Ecosystem - Data Processing"/>
+</p>
+
 ### HADOOP KEY POINTS
 - **Accessible:** runs on large groups of machines in clusters or in clouds such as Amazon's Elastic Compute Cloud (EC2).
 - **Robust**: is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures
