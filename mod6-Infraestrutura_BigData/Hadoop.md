@@ -34,7 +34,7 @@ Inspired by Google’s MapReduce and Google File System (GFS) papers.
 
 #### DATA PROCESSING
 <p align="left">
-  <img width="320" height="300" src="images/Hadoop-Data_Processing.png?raw=true" alt="Hadoop Ecosystem - Data Processing"/>
+  <img width="330" height="300" src="images/Hadoop-Data_Processing.png?raw=true" alt="Hadoop Ecosystem - Data Processing"/>
 </p>
 
 ### HADOOP KEY POINTS
