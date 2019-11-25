@@ -33,15 +33,15 @@ def get_sentiments(filename):
 
 
 # -- FILES & VARIABLES
-file_tweet = 'Tweets.txt'
-file_sentimientos = 'Sentimientos.txt'
+file_tweet = r'D:\GitHub\master-bigdata\mod1-fundamentos_tratamiente-datos-ds\09-FinalEvaluation\Ex1\Tweets.txt'
+file_sentimientos = r'D:\GitHub\master-bigdata\mod1-fundamentos_tratamiente-datos-ds\09-FinalEvaluation\Ex1\Sentimientos.txt'
 
 
 # -- MAIN PROGRAM -------------------------------------------------------------
 
 # -- process tweets file using pandas read_json
 list_of_tweets = get_tweets(file_tweet)
-
+list_of_tweets
 # -- process sentimientos file
 valores = get_sentiments(file_sentimientos)
 
