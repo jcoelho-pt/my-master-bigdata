@@ -13,18 +13,20 @@ Tras el estudio de este módulo, los alumnos habrán alcanzado los siguientes ob
 
 ## Managing Hadoop
 ### Stop / Start Deamons
+NOTE: Starting HDFS will also star the nodes NameNode, DataNode and SecondaryNameNode  
+Start HDFS: ````./sbin/start-dfs.sh````  
+Stop HDFS: ````./sbin/stop-dfs.sh````  
+  
+Start YARN: ````./sbin/start-yarn.sh````  
+Stop YARN: ````./sbin/stop-yarn.sh````  
+  
+#### Starting nodes individually
 Start Namenode:````sbin/hadoop-daemon.sh start namenode````  
 Start Datanode:````sbin/hadoop-daemon.sh start datanode````
   
 Start MapReduce - Resource Manager: ````sbin/yarn-daemon.sh start resourcemanager````  
 Start MapReduce - Node Manager: ````sbin/yarn-daemon.sh start nodemanager````  
 Start MapReduce - Job History Server: ````sbin/mr-jobhistory-daemon.sh start historyserver````
-  
-Start HDFS: ````./sbin/start-dfs.sh````  
-Stop HDFS: ````./sbin/stop-dfs.sh````  
-  
-Start YARN: ````./sbin/start-yarn.sh````  
-Stop YARN: ````./sbin/stop-yarn.sh````
 
 ### Web Interfaces
 http://localhost:50070/ – NameNode y DataNode  
