@@ -1,0 +1,9 @@
+Los objetivos que alcanzarán los alumnos tras el estudio de esta unidad son:
+
+- Poder explicar el ecosistema de Hadoop.
+- Aprender a configurar un servidor Hadoop y algunas de sus herramientas más comunes.
+- Entender el funcionamiento del sistema de almacenamiento de Hadoop.
+- Entender qué es y para qué sirven las técnicas de Map Reduce.
+- Aprender conceptos básicos de manejo de datos en HDFS empleando herramientas como PIG y HIVE.
+
+Debido a la extensión del temario, hemos dividido la unidad en varios bloques con temáticas distintas.

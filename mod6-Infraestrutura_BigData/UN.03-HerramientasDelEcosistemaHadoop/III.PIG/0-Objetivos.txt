@@ -1,0 +1,8 @@
+Los objetivos de este apartado son:
+
+- Conocer el origen y la historia de PIG.
+- Aprender a instalarlo sobre un servidor Hadoop.
+- Aprender la sintaxis básica de Grunt.
+- Conocer la sintaxis de programación en PIG (Pig Latin).
+- Saber cómo se pueden definir funciones en PIG.
+- Resolver ejercicios simples con PIG.
