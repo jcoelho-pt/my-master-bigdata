@@ -1,0 +1,14 @@
+Batch interval
+Duración temporal del microbatch en el que Spark Streaming divide el stream.
+
+DStream (discretized stream)
+Abstracción de Spark Streaming que representa un flujo continuo de datos como una secuencia de RDDs.
+
+Microbatch
+Un RDD de entre los que se divide el DStream.
+
+RDD (Resilient Distributed Dataset)
+Abstracción básica de datos en Spark que representa una colección inmutable y particionada de elementos sobre los que Spark realiza procesamiento en paralelo.
+
+Transformación
+Operación básica en Spark para transformar datos. En realidad, transforma un DStream (o un RDD) en otro DStream (u otro RDD).
