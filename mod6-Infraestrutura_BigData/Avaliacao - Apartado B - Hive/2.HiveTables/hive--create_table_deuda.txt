@@ -1,0 +1,24 @@
+CREATE TABLE IF NOT EXISTS deuda_vida (
+Ano STRING COMMENT 'Ejercicio en el archivo original',
+Cod_Comunidad STRING COMMENT 'cdcdad en el archivo original',
+Comunidad STRING COMMENT 'nomcdad010 en el archivo original',
+Cod_Provincia STRING COMMENT 'cdprov en el archivo original',
+Provincia STRING COMMENT 'nomprov010 en el archivo original',
+Cod_corp STRING COMMENT 'cdcorp en el archivo original',
+Corporacion STRING COMMENT 'nomcorp en el archivo original',
+Deuda DECIMAL COMMENT 'ImpDeudViva en el archivo original'
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\;';
+
+-- IMPORTAÇÃO DOS DADOS NÃO FICA BEM SE USADA A SEGUINTE:
+CREATE TABLE IF NOT EXISTS deuda_vida (
+Ano SMALLINT COMMENT 'Ejercicio en el archivo original',
+Cod_Comunidad TINYINT COMMENT 'cdcdad en el archivo original',
+Comunidad STRING COMMENT 'nomcdad010 en el archivo original',
+Cod_Provincia TINYINT COMMENT 'cdprov en el archivo original',
+Provincia STRING COMMENT 'nomprov010 en el archivo original',
+Cod_corp SMALLINT COMMENT 'cdcorp en el archivo original',
+Corporacion STRING COMMENT 'nomcorp en el archivo original',
+Deuda DECIMAL COMMENT 'ImpDeudViva en el archivo original'
+)
+COMMENT 'Fuente de datos archivo deuda_viva_ayuntamientos_2016__ovel_20170630.xlsx';

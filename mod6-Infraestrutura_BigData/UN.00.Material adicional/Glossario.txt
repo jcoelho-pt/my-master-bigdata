@@ -1,0 +1,11 @@
+DAG
+En ciencias de la computación y matemáticas, un grafo acíclico dirigido o DAG (del inglés Directed Acyclic Graph) es un grafo dirigido que no tiene ciclos; esto significa que para cada vértice v no hay un camino directo que empiece y termine en v.
+
+Nivel de log
+En IT, nivel de avisos que se escriben en un fichero log (fatal, error, warning, info, etc.).
+
+Shell
+En informática, el shell (intérprete de órdenes o intérprete de comandos) es el programa informático que provee una interfaz de usuario para acceder a los servicios del sistema operativo.
+
+Sistema relacional
+El modelo relacional, para el modelado y la gestión de bases de datos, es un modelo de datos basado en la lógica de predicados y en la teoría de conjuntos. En este modelo todos los datos se almacenan en relaciones y, como cada relación es un conjunto de datos, el orden en el que estos se almacenen no tiene relevancia (a diferencia de otros modelos como el jerárquico y el de red).
